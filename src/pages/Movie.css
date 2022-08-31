@@ -56,3 +56,9 @@
     line-height: 1.4rem;
     padding-bottom: 10rem;
 }
+
+@media screen and (max-width:750px) {
+    .movie.page {
+        width: 50%;
+    }
+}

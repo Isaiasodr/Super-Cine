@@ -42,3 +42,16 @@
 .movies-container div svg {
     color: #f7d354
 }
+
+/* media query */
+
+@media (max-width:750px) {
+    .movies-container {
+        display: block;
+
+    }
+
+    .movies-container div {
+        width: 100%;
+    }
+}

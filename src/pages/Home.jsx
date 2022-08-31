@@ -12,7 +12,6 @@ const Home = () => {
     const res = await fetch(url);
     const data = await res.json();
     setTopMovies(data.results);
-    console.log(data);
   };
 
   useEffect(() => {
